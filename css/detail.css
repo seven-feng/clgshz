@@ -1,0 +1,315 @@
+/****************************************** basic************************************/
+.red{
+	color: #FF0000;
+}
+
+.left{
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.hidden{
+	display: none;
+}
+/****************************************** basic************************************/
+
+/**************************************** 详情detail***********************************/
+.detailLeft{
+    margin-top: 70px;
+}
+
+.detailRight{
+    margin-top: 70px;
+}
+
+.title-one{
+    height: 32px;
+    padding-left: 10px;
+    background: #4181C1;
+    color: #fefefe;
+    font: normal 14px/32px "Microsoft Yahei";	
+}
+
+.table-one {
+	width: 100% !important;
+}
+
+.table-one > tbody > tr{
+	color: #0e659c;
+	height: 28px;
+    line-height: 28px;
+    font: 12px "Microsoft Yahei";
+}
+
+tr.odd{
+    background: 
+}
+
+tr.even{
+    background: 
+}
+
+.table-one > tbody > tr > th{
+	text-align: center;
+}
+
+/* oper-form */
+.oper-form {
+	width: 100%;
+	color: #0e659c;
+	background: #f1f1f1;
+}
+.oper-form label{
+	width: 80px;
+	text-align: right; 
+	font: 12px "Microsoft Yahei";
+	margin-bottom: 0px;
+}
+
+.oper-form div{
+	line-height: 36px;
+	font: normal 12px/36px "Microsoft Yahei";
+}
+
+.oper-form input[type="text"]{
+	height: 26px;
+	width: 180px;
+}
+
+.oper-form select{
+    height: 26px;
+}
+
+.oper-form textarea{
+}
+
+.oper-from .btn{
+	font-size: 12px;
+}
+
+#oper-label:first-child ~ label{
+    width: auto;
+    min-width: 0px;
+}
+
+/* 显示更多moreLine */
+.hrLine{
+	width: 100%;
+	position: relative;
+	height: 17px;
+	background: #f1f1f1;
+}
+
+.hrLine hr{
+	margin-right: 80px;
+	border: dashed 1px #bbbbbb;
+	vertical-align: middle;
+	margin: 8px 0px;
+	position: absolute;
+	left: 0px;
+}
+
+.hrLine a{
+	float: right;
+	line-height: 17px;
+	font-family: "Microsoft Yahei";
+	color: #0e659c;
+	cursor:pointer;
+}
+
+/* tab */
+/* 办理进度 */
+#handle-table{
+	height: auto;	
+}
+
+#handle-table th{
+	background: #4692C7;
+	color: #fff;
+}
+/* 处理记录 */
+#processId{
+	background: #f1f1f1;
+}
+
+/* modal */
+.modal-header-adjust{
+    height: 36px;
+    padding-left: 10px;
+    line-height: 36px;
+    border-bottom: 0;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #fff;
+    background-image: linear-gradient(-180deg, #337ab7 0%, #337ab7 100%);
+}
+
+.modal-body p{
+	margin: 0px;
+}
+
+/* 打印modal */
+.print-table{
+	height: 100%;
+	width: 100% !important;
+}
+
+.print-table td{
+	text-align: center;
+	border: 1px solid #000;
+	height: 30px;
+	width: 120px;
+}
+
+/* 修改评价modal */
+.evaluate-table{
+	width: 100% !important;
+	margin-top: 15px;
+}
+
+.evaluate-table td{
+    height: 32px;
+    width: 120px;
+    border: 0px solid #000;
+    padding: 0px 10px 0px 10px;
+}
+
+.evaluate-table .left{
+	text-align: left;
+}
+
+.evaluate-table .right{
+    text-align: right;
+    font-weight: bold;
+}
+/**************************************** 详情detail************************************/
+
+
+
+
+/****************************************** 新增、修改************************************/
+.mainTitle{
+    background: #f0f0f0; 
+    height: 40px; 
+    line-height: 40px; 
+    font-size: 16px; 
+    color: blue; 
+    padding-left: 20px;
+}
+
+/* 基本信息 */
+.info-table{
+    width: 100%;
+    border: 1px solid #dadada;
+    font-size: 14px;
+}
+
+.info-table td{
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 10px 20px 0px 20px;
+}
+
+.info-table .subtitle{
+    width: 140px;
+}
+
+/* 历史记录 */
+#history-table{
+    height: auto;   
+}
+
+#history-table th{
+    background: #4692C7;
+    color: #fff;
+}
+
+/* 事件类型 */
+.zone{
+    width: 800px;
+    height: 500px;
+    margin: 15px 0px;
+    border: 0px solid #000;
+}
+
+.zone_left{
+    display: inline-block;
+    width: 150px;
+    height: 500px;
+    border: 0px solid #000;
+    background: #f0f0f0;
+    vertical-align: top;
+    text-align: left;
+}
+
+.zone_left ul{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+  
+
+.zone_left li{
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.zone_right{
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    border: 0px solid #000;
+}
+
+.zone_right_title{
+    height: 30px;
+    border: 0px solid #000;
+    text-align: left;
+}
+
+.zone_right_title > span{
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+
+.zone_right_content1{
+    height: 300px;
+    border: 0px solid #000;
+    background: #fff;
+    text-align: left;
+}
+
+.zone_right_content1 span{
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.zone_right_content2{
+    height: 140px;
+    border: 0px solid #000;
+    background: #fff;
+    text-align: left;
+}
+
+.zone_right_content2 > span{
+    font-size: 14px;
+    margin: 10px;
+}
+
+/* 错误样式 */
+label.error{
+	display: inline-block;
+	margin-left: 20px;
+	min-width: 100px;
+	text-align: left;
+}
+/****************************************** 新增************************************/
